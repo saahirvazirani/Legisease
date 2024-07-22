@@ -13,3 +13,11 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+/* globals.css or styles.css */
+
+.custom-text {
+  color: rgba(102, 51, 153, 0.7); /* Darker purple with transparency */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+

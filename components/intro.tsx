@@ -18,31 +18,29 @@ export default function Intro() {
         <div className="relative">
           <div>
             <Image
-              src="/nivarotechnologies_logo.jpg"
-              alt="Nivaro"
-              width="192"
-              height="192"
-              quality="95"
+              src="/LL2.png"
+              alt="legisease"
+              width="400"
+              height="499"
+              quality="100"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </div>
         </div>
       </div>
 
       <h1 className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl">
-        <span className="font-bold">Welcome to Nivaro,</span> a{" "}
-        <span className="font-bold">Tech Company </span> teaching{" "}
-        <span className="font-bold">AI</span>
+        <span className="font-bold">Welcome to Legisease,</span> a{" "}
+        <span className="font-bold">website </span> teaching{" "}
+        <span className="font-bold">policy</span>
       </h1>
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium">
         <Link
-          href="/pages/aboutPage"
+          href="/assistant"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
-        
         >
-          Visit Our Website{" "}
+          Try Our Assistant{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
       </div>

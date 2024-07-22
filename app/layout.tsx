@@ -7,8 +7,8 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Nivaro | Starter Code",
-  description: "Starter Code for your AI website.",
+  title: "Legisease",
+  description: "A better way to understand and create legislation.",
 };
 
 export default function RootLayout({
