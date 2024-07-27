@@ -9,7 +9,8 @@ export default function Header() {
   const links = [
     { name: 'Intro', path: '/' },
     { name: 'About', path: '/about' },
-    { name: 'Assistant', path: '/assistant' }
+    { name: 'Assistant', path: '/assistant' },
+    { name: 'Chat', path: '/Chat' }
     // The name is what shows up on the navbar
     //The path is the path to the page you want to link to
     //the path is always the name of the folder of the page you want to link to

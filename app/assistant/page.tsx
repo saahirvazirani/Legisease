@@ -1,4 +1,5 @@
 //import all of your components here!!!
+"use client";
 import Spacing from '@/components/spacing';
 import About from "@/components/about";
 import StarterCode from "@/components/starterCode";
@@ -9,13 +10,14 @@ import Assistant from '@/components/chatbot';
 //In that folder, you have to create a file called page.tsx (it MUST be called page.tsx)
 //In that file, you have to import all of the components you want to use on that page. 
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <main className="flex flex-col items-center px-4">
       
 <Assistant />
       <Spacing/>
-      
     </main>
   );
 }
+export default Home;
+

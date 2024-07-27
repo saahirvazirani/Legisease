@@ -20,6 +20,12 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/assistant/page.js"
+    ],
+    "/Chat/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Chat/page.css",
+      "static/chunks/app/Chat/page.js"
     ]
   }
 }

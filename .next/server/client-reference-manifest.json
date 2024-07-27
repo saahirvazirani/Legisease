@@ -88,9 +88,17 @@
         "async": false
       }
     },
-    "(app-client)/./components/chatbot.tsx": {
+    "(app-client)/./app/assistant/page.tsx": {
       "*": {
-        "id": "(sc_client)/./components/chatbot.tsx",
+        "id": "(sc_client)/./app/assistant/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/Chat/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/Chat/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -99,7 +107,7 @@
   },
   "edgeSSRModuleMapping": {},
   "clientModules": {
-    "/workspaces/nivaroStarterCode/node_modules/next/dist/client/components/error-boundary.js": {
+    "/workspaces/Legisease/node_modules/next/dist/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -107,7 +115,7 @@
       ],
       "async": false
     },
-    "/workspaces/nivaroStarterCode/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "/workspaces/Legisease/node_modules/next/dist/esm/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -115,7 +123,7 @@
       ],
       "async": false
     },
-    "/workspaces/nivaroStarterCode/node_modules/next/dist/client/components/app-router.js": {
+    "/workspaces/Legisease/node_modules/next/dist/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -123,7 +131,7 @@
       ],
       "async": false
     },
-    "/workspaces/nivaroStarterCode/node_modules/next/dist/esm/client/components/app-router.js": {
+    "/workspaces/Legisease/node_modules/next/dist/esm/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -131,7 +139,7 @@
       ],
       "async": false
     },
-    "/workspaces/nivaroStarterCode/node_modules/next/dist/client/components/layout-router.js": {
+    "/workspaces/Legisease/node_modules/next/dist/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -139,7 +147,7 @@
       ],
       "async": false
     },
-    "/workspaces/nivaroStarterCode/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "/workspaces/Legisease/node_modules/next/dist/esm/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -147,7 +155,7 @@
       ],
       "async": false
     },
-    "/workspaces/nivaroStarterCode/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "/workspaces/Legisease/node_modules/next/dist/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -155,7 +163,7 @@
       ],
       "async": false
     },
-    "/workspaces/nivaroStarterCode/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "/workspaces/Legisease/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -163,7 +171,7 @@
       ],
       "async": false
     },
-    "/workspaces/nivaroStarterCode/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/workspaces/Legisease/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -171,7 +179,7 @@
       ],
       "async": false
     },
-    "/workspaces/nivaroStarterCode/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/workspaces/Legisease/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -179,7 +187,7 @@
       ],
       "async": false
     },
-    "/workspaces/nivaroStarterCode/node_modules/react-hot-toast/dist/index.mjs": {
+    "/workspaces/Legisease/node_modules/react-hot-toast/dist/index.mjs": {
       "id": "(app-client)/./node_modules/react-hot-toast/dist/index.mjs",
       "name": "*",
       "chunks": [
@@ -187,7 +195,7 @@
       ],
       "async": false
     },
-    "/workspaces/nivaroStarterCode/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+    "/workspaces/Legisease/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
       "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
       "name": "*",
       "chunks": [
@@ -195,7 +203,7 @@
       ],
       "async": false
     },
-    "/workspaces/nivaroStarterCode/components/header.tsx": {
+    "/workspaces/Legisease/components/header.tsx": {
       "id": "(app-client)/./components/header.tsx",
       "name": "*",
       "chunks": [
@@ -203,7 +211,7 @@
       ],
       "async": false
     },
-    "/workspaces/nivaroStarterCode/app/globals.css": {
+    "/workspaces/Legisease/app/globals.css": {
       "id": "(app-client)/./app/globals.css",
       "name": "*",
       "chunks": [
@@ -211,7 +219,7 @@
       ],
       "async": false
     },
-    "/workspaces/nivaroStarterCode/components/intro.tsx": {
+    "/workspaces/Legisease/components/intro.tsx": {
       "id": "(app-client)/./components/intro.tsx",
       "name": "*",
       "chunks": [
@@ -219,15 +227,15 @@
       ],
       "async": false
     },
-    "/workspaces/nivaroStarterCode/components/spacing.tsx": {
+    "/workspaces/Legisease/components/spacing.tsx": {
       "id": "(app-client)/./components/spacing.tsx",
       "name": "*",
       "chunks": [
-        "app/assistant/page:static/chunks/app/assistant/page.js"
+        "app/about/page:static/chunks/app/about/page.js"
       ],
       "async": false
     },
-    "/workspaces/nivaroStarterCode/components/about.tsx": {
+    "/workspaces/Legisease/components/about.tsx": {
       "id": "(app-client)/./components/about.tsx",
       "name": "*",
       "chunks": [
@@ -235,7 +243,7 @@
       ],
       "async": false
     },
-    "/workspaces/nivaroStarterCode/components/starterCode.tsx": {
+    "/workspaces/Legisease/components/starterCode.tsx": {
       "id": "(app-client)/./components/starterCode.tsx",
       "name": "*",
       "chunks": [
@@ -243,21 +251,32 @@
       ],
       "async": false
     },
-    "/workspaces/nivaroStarterCode/components/chatbot.tsx": {
-      "id": "(app-client)/./components/chatbot.tsx",
+    "/workspaces/Legisease/app/assistant/page.tsx": {
+      "id": "(app-client)/./app/assistant/page.tsx",
       "name": "*",
       "chunks": [
         "app/assistant/page:static/chunks/app/assistant/page.js"
       ],
       "async": false
+    },
+    "/workspaces/Legisease/app/Chat/page.tsx": {
+      "id": "(app-client)/./app/Chat/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/Chat/page:static/chunks/app/Chat/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
-    "/workspaces/nivaroStarterCode/app/layout": [
+    "/workspaces/Legisease/app/layout": [
       "static/css/app/layout.css"
     ],
-    "/workspaces/nivaroStarterCode/app/page": [],
-    "/workspaces/nivaroStarterCode/app/about/page": [],
-    "/workspaces/nivaroStarterCode/app/assistant/page": []
+    "/workspaces/Legisease/app/page": [],
+    "/workspaces/Legisease/app/about/page": [],
+    "/workspaces/Legisease/app/assistant/page": [],
+    "/workspaces/Legisease/app/Chat/page": [
+      "static/css/app/Chat/page.css"
+    ]
   }
 }

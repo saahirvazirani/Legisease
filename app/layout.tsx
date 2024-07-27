@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Legisease",
   description: "A better way to understand and create legislation.",
+  icons: {
+    icon: "/LL",
+  },
 };
 
 export default function RootLayout({

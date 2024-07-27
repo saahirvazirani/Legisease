@@ -1,4 +1,4 @@
-// File: /workspaces/nivaroStarterCode/app/assistant/page.tsx
+// File: /workspaces/Legisease/app/assistant/page.tsx
 import * as entry from '../../../../app/assistant/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

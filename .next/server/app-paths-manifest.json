@@ -2,5 +2,9 @@
   "/page": "app/page.js",
   "/about/page": "app/about/page.js",
   "/assistant/page": "app/assistant/page.js",
-  "/api/chat/route": "app/api/chat/route.js"
+  "/Chat/page": "app/Chat/page.js",
+  "/api/chat/route": "app/api/chat/route.js",
+  "/api/assistants/files/route": "app/api/assistants/files/route.js",
+  "/api/assistants/threads/route": "app/api/assistants/threads/route.js",
+  "/api/assistants/threads/[threadId]/messages/route": "app/api/assistants/threads/[threadId]/messages/route.js"
 }
